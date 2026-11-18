@@ -1,0 +1,32 @@
+### Блоки кода
+
+Встроенный код
+Команда `git status` показывает состояние репозитория.
+Многострочный код:
+
+```python
+print("Hello, Markdown!")
+```
+Можно указать язык: python, js, bash, csharp и др.
+
+### Цитаты
+
+Цитата создаётся символом >:
+
+>Это цитата в Markdown.
+>Вложенная цитата:
+>Первый уровнь
+>>Второй уровень
+
+Коммит и пуш:
+
+```bash
+git add .
+git commit -m "Added code blocks, inline code and quotes examples"
+git push
+```
+
+код без указания языка
+
+string name;
+name = Console.ReadLine();
